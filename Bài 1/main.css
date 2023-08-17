@@ -1,91 +1,112 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     color: white;
 }
-.background{
+
+.background {
     background-image: url('./Image/hero-bg.jpg');
-    background-size: 100% ;
+    background-size: 100%;
     background-repeat: no-repeat;
     height: 680px;
-  
+
 }
+
 @font-face {
-    font-family:Dssp ;
+    font-family: Dssp;
     src: url(./Dancing_Script/DancingScript-VariableFont_wght.ttf);
 }
-nav p{
-    font-family:Dssp;
-   padding: 0 130px;
-   font-size: 30px;
 
-   
+nav p {
+    font-family: Dssp;
+    padding: 0 130px;
+    font-size: 30px;
+
+
 }
-li{
+
+li {
     list-style: none;
     display: block;
     padding: 18px 30px;
 }
-img{
-   padding: 0px 20px;
-  
+
+img {
+    padding: 0px 20px;
+
 }
-nav{
+
+nav {
     margin: 0 auto;
 
 }
-ul{
+
+ul {
     display: flex;
 }
-nav div{
+
+nav div {
     display: flex;
-        
+
 }
-button{
+
+button {
     background-color: rgb(247, 163, 5);
     border-radius: 50px;
     width: 150px;
     height: 40px;
     border: none;
-   margin-top: 7px;
+    margin-top: 7px;
 }
-span{
 
-padding: 15px 10px;
+span {
+
+    padding: 15px 10px;
 }
-section div .headtext{
-    font-family:Dssp ;
+
+section div .headtext {
+    font-family: Dssp;
     font-size: 40px;
 }
-section div{
- margin-top: 10%;
- width: 600px;
- margin-left: 130px;
+
+section div {
+    margin-top: 10%;
+    width: 600px;
+    margin-left: 130px;
 
 }
-section div p{
+
+section div p {
     padding: 10px 0;
 }
-.grouptwo{
+
+.grouptwo {
     height: 800px;
     position: relative;
     background-color: rgb(21, 21, 41);
 }
-.grouptwo img{
-   height: 500px;
-   display: flex;
-position: absolute;
+
+.grouptwo img {
+    height: 500px;
+    display: flex;
+    position: absolute;
     top: 200px;
     left: 150px;
-   
 
 }
-.grouptwo section{
+
+.grouptwo section {
     position: relative;
 }
-.grouptwo section div{
+
+.grouptwo section div {
     position: absolute;
     left: 500px;
     top: 200px;
+}
+
+section img {
+    margin-top: 100px;
+    margin-left: 90px;
 }
