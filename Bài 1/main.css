@@ -76,7 +76,9 @@ section div p{
    height: 500px;
    display: flex;
 position: absolute;
-    top: 200px
+    top: 200px;
+    left: 150px;
+   
 
 }
 .grouptwo section{
